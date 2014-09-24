@@ -2,7 +2,7 @@
 
 ## What's Fibonacci Sequence?
 Sorry, but [let me google it for you](http://lmgtfy.com/?q=Fibonacci+Sequence).
-
+***
 ## How does it works?
 *It's simple.*
 **Fibonacci Sequence** *gets* the *first two numbers* to **generate** the *next one* in the row.
