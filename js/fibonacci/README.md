@@ -24,4 +24,4 @@ Converting it to variables, we have:
 > a b c
 
 What did I said earlier?
-> **Fibonacci Sequence** *gets* the *first two numbers* to **generate** the *next one* in the row.
+> Fibonacci Sequence **gets the first two numbers** to generate the **next one** in the row.
