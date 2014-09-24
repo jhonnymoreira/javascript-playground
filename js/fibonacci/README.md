@@ -1,6 +1,6 @@
 # Fibonacci Sequence
 
-## What's Fibonacci Sequence?
+## What's the Fibonacci Sequence?
 Sorry, but [let me google it for you](http://lmgtfy.com/?q=Fibonacci+Sequence).
 ***
 ## How does it works?
@@ -30,7 +30,7 @@ Understading it we conclude that the **c** is just **c** *= a + b*. Now we have:
 > a, b, (a + b)
 
 After all the explanation, the code begins!
-
+---
 ## The Code
 The code begins with a *function*, so I can simply call it on the console. The name of the function is gonna be **_fibonacci_**, and this is our headstart.
 
