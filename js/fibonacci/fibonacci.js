@@ -9,7 +9,7 @@ function fibonacci () {
 		end = begin + middle;
 
 		fibonacci[i] = end;
-		console.log(fibonacci[i]);
+		console.log( fibonacci[i] );
 
 		begin = middle;
 		middle = end;
