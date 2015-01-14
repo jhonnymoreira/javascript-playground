@@ -1,17 +1,17 @@
 function fibonacci () {
-	var begin = 1;
-	var middle = 0;
-	var end = 0;
-	var fibonacci = [];
-	var sequence = prompt('Quantos números você irá querer?');
+  var begin = 1
+    , middle = 0
+    , end = 0
+    , fibonacci = [];
+    , sequence = prompt('How many numbers in the sequence?');
 
-	for ( i = 0; i < sequence; i++ ) {
-		end = begin + middle;
+  for ( i = 0; i < sequence; i++ ) {
+    end = begin + middle;
+    fibonacci[i] = end;
 
-		fibonacci[i] = end;
-		console.log( fibonacci[i] );
+    console.log( fibonacci[i] );
 
-		begin = middle;
-		middle = end;
-	}
+    begin = middle;
+    middle = end;
+  }
 }
