@@ -2,7 +2,7 @@ function fibonacci () {
   var begin = 1
     , middle = 0
     , end = 0
-    , fibonacci = [];
+    , fibonacci = []
     , sequence = prompt('How many numbers in the sequence?');
 
   for ( i = 0; i < sequence; i++ ) {
