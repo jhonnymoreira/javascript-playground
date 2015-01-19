@@ -19,4 +19,4 @@ There are some rules to follow:
 ## How it works
 Hexadecimal is equivalent to base 16 and this is everything that we **need** to know. The higher combination that we have is **16\*\*2** (16 => Numbers.length + Letters.length), resulting in 256 combinations, but our max number is 255, since the RGB channels starts at 0.
 
-Hexadecimal colors follow a pattern **#rrggbb**, it means that the every pair is a channel on RGB. When you are dealing with a pattern like this **#rgb**, you *should* read **#rrggbb**.
+Hexadecimal colors follows a pattern **#rrggbb**, it means that the every pair is a channel on RGB. When you are dealing with a pattern like this **#rgb**, you *should* read **#rrggbb**.
