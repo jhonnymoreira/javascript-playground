@@ -40,14 +40,15 @@ playground.evenFibonnaci = function () {
   var a = 1;
   var b = 0;
   var c = 0;
+  var l = 4000000;
   var s = 0;
   var i = 0;
 
-  while ( i < i + 1 ) {
+  while (i < i + 1) {
     c = a + b;
 
-    if ( c % 2 == 0 ) { s += c }
-    if ( c >= 4000000 ) { break }
+    if (c % 2 == 0) { s += c }
+    if (c >= l) { break }
 
     a = b;
     b = c;
@@ -56,4 +57,4 @@ playground.evenFibonnaci = function () {
   }
 
   return s;
-};
+}

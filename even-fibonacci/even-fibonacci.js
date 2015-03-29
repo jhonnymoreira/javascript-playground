@@ -5,6 +5,8 @@ function evenFibonacci() {
   var b = 0;
   // Term n1 + n2
   var c = 0;
+  // Setting up the limit in a variable
+  var l = 4000000;
   // Sum of all even numbers in Fibonnaci sequence between 0 and 4.000.000
   var s = 0;
   // Loop usage
@@ -17,8 +19,8 @@ function evenFibonacci() {
 
     // If even, add the value to sum variable
     if (c % 2 == 0) { s += c }
-    // If bigger than 4.000.000, loop stops.
-    if (c >= 4000000) { break }
+    // If bigger than limit (l), loop stops.
+    if (c >= l) { break }
 
     // Fibonacci pattern
     a = b;
