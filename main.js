@@ -59,3 +59,27 @@ playground.evenFibonnaci = function () {
 
   return s;
 };
+
+playground.rockPaperScissors = function () {
+  var elements = ['rock', 'paper', 'scissors'];
+  var player = prompt('Rock, paper os scissors?').toLowerCase();
+  var computer = elements[Math.floor( Math.random() * elements.length )];
+
+  if ( elements.indexOf( player ) === -1 ) {
+    alert('You typed "' + player + '". Try again!');
+    playground.rockPaperScissors();
+  } else {
+    var winner = ( (elements.indexOf( player ) + elements.length) - elements.indexOf( computer ) ) % 3;
+
+    switch ( winner ) {
+      case 1:
+        alert('You win!');
+        break;
+      case 2:
+        alert('You lose!');
+        break;
+      default:
+        alert('Draw!');
+    }
+  }
+}
