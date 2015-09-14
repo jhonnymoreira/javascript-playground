@@ -4,11 +4,11 @@ function rgbColor(hex) {
     , hex  = hex.toLowerCase().split('')
     , rgb  = [];
 
-  if ( hex.length <= 3 ) {
+  if ( hex.length === 3 ) {
     for ( i = 0; i <= 2; i++ ) {
       rgb[i] = base.indexOf( hex[i] )*16 + base.indexOf( hex[i] );
     }
-  } else {
+  } else if ( hex.length === 6 ) {
     for ( i = 0; i <= hex.length / 3; i++ ) {
       rgb[i] = base.indexOf( hex[i*2] )*16 + base.indexOf( hex[i*2 + 1] );
     }
